@@ -1,0 +1,74 @@
+/*Basic browser reset*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*IE img inside of link fix*/
+a img{
+	border: none;
+}
+
+body{
+	background-color: #EDEDED;
+}
+
+#wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+}
+
+#jlogo{
+	margin-top: 10px;
+}
+
+#header{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+#header img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title{
+	position: absolute;
+	left: 716px;
+	top: 0px;
+}
+
+#video {
+	text-align: center;
+}
+
+#nav{
+	
+	width: 812px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 200px;
+}
+
+.weeks{
+	text-align: center;
+	width: 396px;
+}
+
+.week{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#left{
+	float: left;
+}
+
+#right{
+	float: right;
+}
