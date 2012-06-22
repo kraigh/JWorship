@@ -48,7 +48,8 @@ body{
 
 #nav{
 	
-	width: 812px;
+	width: 832px;
+	height: 280px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
@@ -60,9 +61,13 @@ body{
 	width: 396px;
 }
 
+.weeks a:hover{
+/*	background-color: #b0b0b0;*/
+}
+
 .week{
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 #left{
@@ -71,4 +76,8 @@ body{
 
 #right{
 	float: right;
+}
+
+#endlogo{
+	text-align: center;
 }
