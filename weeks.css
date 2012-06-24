@@ -21,6 +21,7 @@
 	margin-left: -128px;
 	margin-top: -100px;
 	text-align: center;
+	padding-top: 120px;
 }
 
 .weeks{
@@ -34,9 +35,21 @@
 	color: #4A5156;
 }
 
+.heading{
+	color: #272727;
+	letter-spacing: 5px;
+	font: small-caps 1em Verdana;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.summary:first-of-type{
+	margin-bottom: 15px;
+}
+
 .scripture{
 	font-style: italic;
-	padding-top: 110px;
+	padding-top: 0px;
 }
 
 .reference{
@@ -46,8 +59,12 @@
 	font-style: italic;
 }
 
+.indent{
+	margin-left: 50px;
+}
+
 #left{
-	width: 900px;
+	width: 1000px;
 	float: none;
 	margin-left: auto;
 	margin-right: auto;
