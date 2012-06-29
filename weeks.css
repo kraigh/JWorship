@@ -1,17 +1,29 @@
-#logos{
+.logos{
 	margin-top: 20px;
 }
 
-#jlogo{
+.jlogo{
 	margin-top: 0px;
+	float: left;
 }
 
-#wlogo{
+.wlogo{
+	margin-left: 35px;
+	float: left;
+}
+
+.pipe{
+	width: 2px;
+	height: 75px;
+	background-color: #929292;
+	float: left;
 	margin-left: 30px;
+	margin-top: -20px;
 }
 
 #video{
 	margin-top: 50px;
+	padding-top: 100px;
 }
 
 #nav{
@@ -33,14 +45,16 @@
 	font-family: Verdana;
 	line-height: 1.65em;
 	color: #4A5156;
+	margin-top: 20px;
 }
 
 .heading{
 	color: #272727;
 	letter-spacing: 5px;
-	font: small-caps 1em Verdana;
+	font: 1.5em Verdana;
 	margin-bottom: 15px;
 	margin-top: 15px;
+	font-weight: 500;
 }
 
 .summary:first-of-type{
@@ -53,8 +67,7 @@
 }
 
 .reference{
-	text-decoration: underline;
-	margin-left: 400px;
+	margin-left: 700px;
 	color: #4A5156;
 	font-style: italic;
 }
@@ -78,6 +91,16 @@
 	margin-left: auto;
 }
 
-#wlogoend{
-	padding-top: 30px;
+#buttons{
+	margin-top: 20px;
+}
+
+#bottomlogos{
+	margin-top: -150px;
+	padding-bottom: 200px;
+}
+
+
+#bottomspacer{
+	margin-bottom: 50px;
 }
