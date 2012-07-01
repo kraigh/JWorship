@@ -36,9 +36,12 @@
 	padding-top: 120px;
 }
 
+#nav.week2nav{
+	height: 600px;
+}
+
 .weeks{
 	text-align: left;
-
 }
 
 .weeks p{
